@@ -4,7 +4,7 @@ xmlns:gap ="http://phonegap.com/ns/1.0"
 id ="com.phonegap.app3"
 version ="1.0.0">
 
-<name>app2 Dia Mundial de la Bicicleta</name>
+<name>app3 Dia Mundial de la Bicicleta</name>
 
 <description>
 Aplicacion que muestra informacion acerca de el dia mundial de la bicicleta
@@ -33,6 +33,11 @@ Gustavo Jimenez Puente
 <!--< plugin name="cordova-plugin-geolocation" source="npm"/> -->
 <!--Third part plugins-->
 <!--Colocar icono app-->
+<!--Para accesar a paginas web-->
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
 
 <icon src="res/android/mdpi.png"/>
 
